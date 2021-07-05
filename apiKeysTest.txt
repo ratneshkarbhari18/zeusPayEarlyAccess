@@ -1,0 +1,10 @@
+Stripe Publishable: pk_test_51IvIyQSFjd3hwhbQM7apvSM0GmJHrct9bwZLgNhhj71mxADipSVY7syFPVX37hLEOlDsJfiPkIM3REUvq94d6ZNJ00uO8urTEy
+
+Stripe Secret : 
+sk_test_51IvIyQSFjd3hwhbQvAtssohvagmPyz4by6ud6c1OYo68HxO537DySus1ztwTeJ0pcCzcyHnmi5VCaFoB29KRx9IN00rHPMli0R
+
+RazorPay key_id : 
+rzp_test_sEgVk7RYfMk9lt
+
+RazorPay key_secret:
+kR9rFdO67DFjzeqnMXWjEG5e

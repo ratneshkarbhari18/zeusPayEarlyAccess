@@ -1,0 +1,9 @@
+STRIPE ->
+
+Secret Key : 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
+Publishable Key : 
+pk_live_51IvIyQSFjd3hwhbQZd6gwwGwS6FXefJI0e9wyxU5d1ISoWUKCbfMJmu0lKv6gy6RcgGKGEjiwxhJNtChXH9OLUbN00dLqfwEju
+
+RAZORPAY -> 
+key_id : rzp_live_57TqTKrZCmFypB
+key_secret : UdYabxsrvU2nmCF5wTISlP8U

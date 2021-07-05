@@ -1,0 +1,53 @@
+
+.bg-primary{
+    background-color: #357735 !important;
+    color: white !important;
+}
+.page-content{
+    padding: 3em 0;
+}
+.custom-card-dashboard{padding: 5%; margin-bottom: 3%; font-size: 1.4rem;
+}
+.custom-card-dashboard:hover{
+    background-color: #357735;
+    color: white;
+}
+a:hover{
+    text-decoration: none;
+}
+.items-container{
+    margin-top: 5%;
+}
+.action-button{
+    margin: 0 0.5em 0.5em 0;
+}
+.sidebar .nav-link:hover{
+    background-color: #357735;
+    color: #fff;
+}
+
+.sidebar-link:hover{
+    color: #fff !important;
+}
+.sidebar-link{
+    color: #000;
+}
+.navbar-brand{
+    color: #fff !important;
+}
+a{
+    color: #000 !important;
+}
+.bg-dark{
+    background-color: #357735 !important;
+}
+.btn-success,.btn-primary,.btn-danger,.btn-secondary{
+    color: #fff !important;
+    cursor: pointer;
+}
+a.pwdShowHideToggleLink{
+    position: absolute;
+    right: 2em;
+    text-decoration: underline !important;
+    bottom: 8em;
+}
