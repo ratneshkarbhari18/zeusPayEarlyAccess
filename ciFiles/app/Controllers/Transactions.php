@@ -41,7 +41,7 @@ class Transactions extends BaseController
             "phone" => $customer_data["mobile_number"],
             "public_id" => uniqid(),
             "amount" => $payment_data["amount"],
-            "amount_inr" => $inrConversionFactors[$payment_data["currency"]],
+            "amount_inr" => $inrConversionFactors[$payment_data["currency"]]*$payment_data["amount"],
             "currency" => $payment_data["currency"],
             "client_tx_id" => $payment_data["client_tx_id"],
             "gw_tx_id" => "",

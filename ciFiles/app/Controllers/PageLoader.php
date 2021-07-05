@@ -77,11 +77,11 @@ class PageLoader extends BaseController
 		$successfulTransactions = $transactionModel->where("status","success")->where("settled","no")->where("user",session("id"))->findAll();
 		$unsettledAmount = 0.00;
 		foreach ($successfulTransactions as $susTran) {
-			$unsettledAmount+=$susTran["amount_usd"];
+			$unsettledAmount+=$susTran["amount_inr"]*0.9;
 		}
 		$data = array(
 			"title" => "Settlement",
-			"unsettled_amount" => $unsettledAmount,
+			"unsettled_amount" => round($unsettledAmount,2),
 			"successful_transactions" => $successfulTransactions
 		);
 		$this->page_loader("settlement",$data);

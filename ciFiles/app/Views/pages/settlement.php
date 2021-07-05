@@ -3,7 +3,7 @@
 
         <div class="card">
             <div class="card-body">
-                <h2>Unsettled Amount: $ <?php echo $unsettled_amount; ?></h2>
+                <h2>Unsettled Amount: ₹ <?php echo $unsettled_amount; ?></h2>
                 
             </div>
         </div>
