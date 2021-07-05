@@ -266,6 +266,23 @@ class PageLoader extends BaseController
 		
 	}
 
+	public function transaction_success(){
+		$transaction_id = $_GET["transaction_id"];
+		$amount = $_GET["amount"];
+		$data = array("title"=>"Transaction Successful",
+		"txId"=>$transaction_id,"amount"=>$amount 
+		);
+		$this->page_loader("transaction_successful",$data);
+	}
+	public function transaction_failure(){
+		$transaction_id = $_GET["transaction_id"];
+		$amount = $_GET["amount"];
+		$data = array("title"=>"Transaction Failed",
+		"txId"=>$transaction_id,"amount"=>$amount 
+		);
+		$this->page_loader("transaction_failed",$data);
+	}
+
 	public function payment($uid){
 		$orderModel = new OrderModel();
 		$authModel = new AuthModel();

@@ -77,6 +77,8 @@ $routes->get("transaction-details/(:any)","PageLoader::tx_details/$1");
 $routes->get("settings","PageLoader::settingsPage");
 $routes->get("change-email","PageLoader::change_email");
 $routes->get("change-password","PageLoader::change_password");
+$routes->get("transaction-successful","PageLoader::transaction_success");
+$routes->get("transaction-failed","PageLoader::transaction_failure");
 
 
 
